@@ -11,5 +11,10 @@
             "email": "lucy.madec@laplateforme.io"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": 
+        {
+            "test": "vendor\\bin\\phpunit --bootstrap vendor\\autoload.php tests"
+        }
+    
 }
